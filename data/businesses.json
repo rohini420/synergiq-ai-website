@@ -1,0 +1,6 @@
+[
+  {"name":"Folsom Fresh Cafe","category":"Restaurants","address":"101 Sutter St, Folsom, CA","phone":"(916) 555-0121","website":"https://example.com/fresh-cafe","rating":"4.7","offer":"10% off weekday lunch"},
+  {"name":"Glow & Grace Salon","category":"Salons","address":"220 Riley St, Folsom, CA","phone":"(916) 555-0162","website":"https://example.com/glow-grace","rating":"4.8","offer":"Free deep conditioning with color service"},
+  {"name":"PeakFit Studio","category":"Fitness","address":"450 Blue Ravine Rd, Folsom, CA","phone":"(916) 555-0190","website":"https://example.com/peakfit","rating":"4.6","offer":"First class free"},
+  {"name":"BrightPath Tutors","category":"Tutors","address":"300 Natoma St, Folsom, CA","phone":"(916) 555-0148","website":"https://example.com/brightpath","rating":"4.9","offer":"Free 30-minute consultation"}
+]
