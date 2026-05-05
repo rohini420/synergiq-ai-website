@@ -1,0 +1,4 @@
+[
+ {"name":"A. Student","skills":"Python, Prompting, RAG","projects":"HR Policy RAG Chatbot, Resume Optimizer","github":"https://github.com/","demo":"https://example.com","score":"4.6/5","badge":"Recruiter Visible"},
+ {"name":"B. Learner","skills":"Automation, APIs, Data","projects":"Lead Gen Agent, Review Assistant","github":"https://github.com/","demo":"https://example.com","score":"4.8/5","badge":"Recruiter Visible"}
+]

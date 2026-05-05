@@ -1,42 +1,38 @@
-# SynergIQ AI Website (Production-ready MVP)
+# SynergIQ AI Website MVP
 
-## Folder Structure
-- `index.html` - Home
-- `about.html` - About
-- `services.html` - Products and Services
-- `blog.html` - Blog
-- `contact.html` - Contact
-- `styles.css` - Shared styling
-- `script.js` - Small client script (footer year)
+Static MVP optimized for Namecheap shared hosting.
 
-## Deploy on Namecheap Hosting
-1. Log in to Namecheap cPanel.
-2. Open **File Manager** and go to `public_html/`.
-3. Upload all project files from this folder.
-4. Ensure `index.html` is in `public_html/` root.
-5. Visit your domain to verify pages and navigation.
+## Pages
+Home, Local, FolsomFinds, Labs, Portfolio, Hire Talent, About, Contact.
 
-### Optional (FTP)
-1. In cPanel, create/get FTP credentials.
-2. Use FileZilla and connect to your hosting server.
-3. Upload all files into `public_html/`.
+## Local Setup
+Open `index.html` in browser or serve locally:
+- `python -m http.server 8080`
 
-## Contact Form Setup (Formspree)
-1. Create a form at https://formspree.io.
-2. Copy your endpoint ID (example: `https://formspree.io/f/abcxyzpq`).
-3. Open `contact.html` and replace `your-form-id` in the form `action` URL.
-4. Re-upload `contact.html`.
+## Namecheap Deployment
+1. Zip project files.
+2. Upload all files/folders to `public_html`.
+3. Ensure `index.html` is in `public_html` root.
+4. Update `sitemap.xml` and `robots.txt` domain URLs.
+5. If using Formspree, replace `your-form-id` in forms.
 
-## How to Update Content Later
-1. Edit text in the relevant `.html` file.
-2. Keep page titles and meta descriptions updated in each `<head>` section for SEO.
-3. Add blog cards in `blog.html` by duplicating an `<article class="card">` block.
-4. Re-upload changed files to Namecheap `public_html/`.
+## Form setup
+Uses Formspree endpoints for MVP compatibility with shared hosting.
+Fallback: replace form `action` with `mailto:you@domain.com` for minimal backup.
 
-## Competitive Research Summary Applied
-Design patterns were adapted from enterprise consulting leaders (Accenture, Deloitte Digital, Cognizant, TCS, Capgemini) and local US IT firms:
-- Clear hero message + dual CTA
-- Services organized into categories
-- Process-driven trust section
-- Clean navigation and restrained visual style
-- Strong contact CTA and business address in footer
+## Data Files
+- `data/businesses.json`
+- `data/projects.json`
+- `data/portfolio.json`
+
+## Future Roadmap
+- Supabase DB + auth
+- Business claim workflow
+- Student login + portfolio creation
+- Peer review flows
+- Recruiter search and shortlist
+- Payment integration
+- AI-generated offers and review automation
+
+## Logo
+Current implementation uses text branding in nav. Add final logo asset as `assets/synergiq-logo.png` and reference in header/hero when ready.
